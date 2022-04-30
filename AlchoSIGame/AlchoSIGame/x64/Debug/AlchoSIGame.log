@@ -1,0 +1,80 @@
+﻿  AlchoSIGame.cpp
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\WindowA.h(73,47): warning C4244: =: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\TextWork.h(63,36): warning C4244: -=: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\TextWork.h(81,26): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\TextWork.h(91,31): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\TextWork.h(91,23): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Button.h(79,39): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Button.h(79,27): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Button.h(136,83): warning C4244: =: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Player.h(27,13): warning C4244: инициализация: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Player.h(27,36): warning C4244: инициализация: преобразование "T" в "float", возможна потеря данных
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Player.h(74,49): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Player.h(74,32): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Field.h(14,41): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\AlchoSIGame\Field.h(14,34): warning C4244: аргумент: преобразование "const int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  AlchoSIGame.vcxproj -> C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\AlchoSIGame\x64\Debug\AlchoSIGame.exe

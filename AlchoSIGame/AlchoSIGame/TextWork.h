@@ -6,6 +6,14 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <locale>
+#include <codecvt>
+
+std::string wstring_to_string(std::wstring wstring_to_convert) {
+	using convert_type = std::codecvt_utf8<wchar_t>;
+	std::wstring_convert<convert_type, wchar_t> converter;
+	return converter.to_bytes(wstring_to_convert);
+}
 
 template <typename T>
 std::string toString(T val) {
@@ -69,10 +77,10 @@ public:
 		text.setRotation(newAngle);
 	}
 
-	void setText(sf::String newText = "IOF", unsigned int newSize = 56, sf::Vector2f newPosition = sf::Vector2f(0, 0), sf::Color RGBA = sf::Color(0, 0, 0)) {
+	void setText(sf::String newText = "IOF", unsigned int newSize = 56, sf::Vector2f newPosition = sf::Vector2f(0, 0), sf::Vector2f newPosTextTexture = sf::Vector2f(0, 0), sf::Color RGBA = sf::Color(0, 0, 0)) {
 		chText(newText);
 		chFontSize(newSize);
-		chTextPosition(newPosition, posTextTexture);
+		chTextPosition(newPosition, newPosTextTexture);
 		chFontColor(RGBA);
 	}
 

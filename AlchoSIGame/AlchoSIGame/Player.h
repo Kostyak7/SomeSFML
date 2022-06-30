@@ -36,11 +36,11 @@ public:
 		position.x = 200 - prW/2 + 760 * (2 * num_ + 1) / num_of_plyrs;
 		img_sprt.setPosition(position);
 
-		name_box.chFont("files/textFont/PixelFont 1.ttf");
-		name_box.setText(name, 60, sf::Vector2f(position.x - 100 + prW / 2, position.y + 200), sf::Vector2f(60, 10), sf::Color::White);
+		name_box.chFont("files/textFont/UZSans-Regular.ttf");
+		name_box.setText(name, 40, sf::Vector2f(position.x - 100 + prW / 2, position.y + 200), sf::Vector2f(60, 10), sf::Color::White);
 
-		score_box.chFont("files/textFont/PixelFont 1.ttf");
-		score_box.setText(toString<int>(score), 50, sf::Vector2f(position.x - 90 + prW / 2, position.y + 250), sf::Vector2f(60, 10), sf::Color::White);
+		score_box.chFont("files/textFont/UZSans-Regular.ttf");
+		score_box.setText(toString<int>(score), 40, sf::Vector2f(position.x - 90 + prW / 2, position.y + 250), sf::Vector2f(60, 10), sf::Color::White);
 
 		outLine.setSize(sf::Vector2f(250, 340));
 		outLine.setFillColor(sf::Color::Transparent);
@@ -56,7 +56,7 @@ public:
 		score_box.chTextPosition(sf::Vector2f(position.x + 10, position.y + 250), sf::Vector2f(60, 10));
 	}
 
-	void update(sf::RenderWindow& window, float time, bool *isOtherBusy, bool ableChoose) {
+	void update(sf::RenderWindow& window, float time, int *isOtherBusy, bool ableChoose) {
 		
 		if (number != -1) {
 			if (state == 4) {
@@ -73,7 +73,7 @@ public:
 			if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
 				if (state) {
 					if (!*isOtherBusy && ableChoose) {
-						*isOtherBusy = 1;
+						*isOtherBusy = number + 1;
 						state = 3;
 					}
 					else if (state != 3) state = 2; 

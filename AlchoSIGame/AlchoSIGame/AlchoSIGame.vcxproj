@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClInclude Include="Button.h" />
     <ClInclude Include="Field.h" />
+    <ClInclude Include="FinalField.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="MyMusic.h" />

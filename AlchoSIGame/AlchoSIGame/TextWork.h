@@ -30,6 +30,32 @@ T fromString(const std::string& s) {
 	return res;
 }
 
+std::wstring insertNL(std::wstring str, int fontSize, int width, int* d) {
+	int len = str.length();
+	int num = 1;
+	if (float(fontSize * len) * 0.55 > float(width) * 0.95) {
+		float nowLen = 0;
+		for (int i = 0; i < len; i++) {
+			nowLen += float(fontSize) * 0.55;
+
+			if (nowLen >= float(width) * 0.95) {
+				int j = i;
+				if (str[j] != L' ') {
+					while (j >= 0 && str[j] != L' ') {
+						j--;
+					}
+				}
+				str[j] = L'\n';
+				num++;
+				i = j;
+				nowLen = 0;
+			}
+		}
+	}
+	*d = (float(*d) - float(num * fontSize) * 1.175) * 0.45;
+	return str;
+}
+
 class TextWork {
 public:
 	std::string SText;
@@ -86,7 +112,7 @@ public:
 
 	float getTextSizeX() {
 		sf::Vector2f numL = getNumLetter();
-		return float(fontSize) * (numL.x * 0.37 + numL.y * 0.25);
+		return float(fontSize) * (numL.x * 0.55 + numL.y * 0.55);
 	}
 
 private:

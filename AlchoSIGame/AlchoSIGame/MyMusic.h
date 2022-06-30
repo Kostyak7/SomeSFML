@@ -86,4 +86,56 @@ public:
 	}
 };
 
+
+typedef struct QuestAns {
+	int isTextQ;
+	std::wstring textQ;
+	int isImageQ;
+	std::wstring linkImgQ;
+	int isMusicQ;
+	std::wstring linkMscQ;
+	int isTextA;
+	std::wstring textA;
+	int isImageA;
+	std::wstring linkImgA;
+} QuestAns;
+
+
+class MyImage {
+public:
+	sf::Image* img;
+	sf::Texture* txtr;
+	sf::Sprite* sprt;
+	MyImage(std::wstring file_name) {
+		img = new sf::Image;
+		txtr = new sf::Texture;
+		sprt = new sf::Sprite;
+		img->loadFromFile(wstring_to_string(PATH_IMG + file_name));
+		txtr->loadFromImage(*img);
+		sprt->setTexture(*txtr);
+		sprt->setPosition(sf::Vector2f(443, 58));
+		float prW = img->getSize().x, prH = img->getSize().y;
+		if (650 * prW >= 1200 * prH) {
+			sprt->move(0, (650 - 1200 / prW * prH) / 2);
+			sprt->setScale(1200 / prW, 1200 / prW);
+		}
+		else {
+			sprt->move((1200 - 650 / prH * prW) / 2, 0);
+			sprt->setScale(650 / prH, 650 / prH);
+		}
+	}
+
+	~MyImage() {
+		std::cout << "FIOF" << std::endl;
+		delete img;
+		delete txtr;
+		delete sprt;
+	}
+
+	void draw(sf::RenderWindow& window) {
+		window.draw(*sprt);
+	}
+};
+
+
 #endif // !MYMUSIC_H

@@ -1,0 +1,17 @@
+﻿  GameLife.cpp
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\GameLife\GameLife\GameLife.cpp(55,47): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\GameLife\GameLife\GameLife.cpp(55,39): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\GameLife\GameLife\GameLife.cpp(89,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\GameLife\GameLife\GameLife.cpp(100,27): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\GameLife\GameLife\GameLife.cpp(100,50): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\GameLife\GameLife\GameLife.cpp(100,73): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\GameLife\GameLife\GameLife.cpp(135,15): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+  GameLife.vcxproj -> C:\Users\kosty\Desktop\ШАКАЛАДКА\прога\C++\Проекты\GameLife\x64\Debug\GameLife.exe

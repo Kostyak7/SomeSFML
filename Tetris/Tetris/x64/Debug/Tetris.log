@@ -1,0 +1,70 @@
+﻿  Tetris.cpp
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,42): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,42): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,42): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,42): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,42): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,36): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,36): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,36): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,36): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(51,36): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,43): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,43): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,43): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,43): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,43): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,37): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,37): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,37): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,37): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(401,37): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,43): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,43): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,43): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,43): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,43): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,37): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,37): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,37): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,37): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(402,37): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,43): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,43): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,43): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,43): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,43): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,37): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,37): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,37): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,37): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(403,37): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,43): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,43): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,43): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,43): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,43): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,37): warning C4244:  аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,37): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,37): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,37): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(404,37): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(406,1): warning C4065:  оператор switch содержит метку "default", но не содержит ни одной метки "case"
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(460,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(495,67): warning C4244:  аргумент: преобразование "unsigned __int64" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(495,67): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(495,67): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(495,67): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(495,67): warning C4244:         ]
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(563,58): warning C4244:  аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(563,45): warning C4244:  аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(567,27): warning C4305:  аргумент: усечение из "double" в "float"
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(567,50): warning C4305:  аргумент: усечение из "double" в "float"
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(567,73): warning C4305:  аргумент: усечение из "double" в "float"
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(589,15): warning C4244:  инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(688,68): warning C4244:  аргумент: преобразование "unsigned __int64" в "T", возможна потеря данных
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(688,68): warning C4244:         with
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(688,68): warning C4244:         [
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(688,68): warning C4244:             T=float
+C:\Users\kosty\Desktop\Tetris\Tetris\Tetris.cpp(688,68): warning C4244:         ]
+  Tetris.vcxproj -> C:\Users\kosty\Desktop\Tetris\x64\Debug\Tetris.exe

@@ -1,0 +1,21 @@
+﻿  ThreeInARow.cpp
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(98,14): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(99,14): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(106,1): warning C4305: =: усечение из "double" в "float"
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(111,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(356,9): warning C4244: инициализация: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(356,36): warning C4244: инициализация: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(385,24): warning C4244: +=: преобразование "double" в "unsigned int", возможна потеря данных
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(402,22): warning C4244: +=: преобразование "double" в "unsigned int", возможна потеря данных
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(426,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(452,15): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\ThreeInARow\ThreeInARow.cpp(429,12): warning C4101: AllTimeSecInt: неиспользованная локальная переменная
+  ThreeInARow.vcxproj -> C:\Users\kosty\OneDrive\Документы\GitHub\ThreeIARow\x64\Debug\ThreeInARow.exe
